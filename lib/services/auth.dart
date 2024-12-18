@@ -11,7 +11,7 @@ class AuthServices {
   }
 
   // create a stream for checking the auth changes in the user
-  Stream<UserModel?> get user{
+  Stream<UserModel?> get user {
     return _auth.authStateChanges().map(_userWithFirabaseUserUid);
   }
 
@@ -23,6 +23,16 @@ class AuthServices {
       return _userWithFirabaseUserUid(user);
     } catch (err) {
       print(err.toString());
+      return null;
+    }
+  }
+
+  //signout
+  Future signOut() async {
+    try {
+      return await _auth.signOut();
+    } catch (e) {
+      print(e.toString());
       return null;
     }
   }
