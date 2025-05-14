@@ -1,0 +1,2 @@
+/home/dilshika/Documents/flutter/study_firebase/android/app/.cxx/Debug/2q6706j0/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/dilshika/Documents/flutter/study_firebase/android/app/.cxx/Debug/2q6706j0/armeabi-v7a/CMakeFiles/rebuild_cache.dir

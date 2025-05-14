@@ -1,0 +1,1 @@
+/home/dilshika/Documents/flutter/study_firebase/build/app/intermediates/cxx/Debug/2q6706j0/obj/arm64-v8a
